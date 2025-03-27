@@ -1,0 +1,8 @@
+ID | NOMBRE | VIDA | ATAQUE | UBICACION
+1 | Espectro Errante | 60 | 18 | 4
+2 | Vigía de las Ruinas | 80 | 22 | 5
+3 | Alma Condenada | 70 | 20 | 8
+4 | Carcelero Olvidado | 90 | 24 | 11
+5 | Heraldo del Ocaso | 100 | 27 | 13
+6 | Guardián de la Profanación | 120 | 30 | 15
+7 | El Rey Exánime | 180 | 40 | 20

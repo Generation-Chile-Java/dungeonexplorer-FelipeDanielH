@@ -1,0 +1,18 @@
+ID | NOMBRE | DESCRIPCION | TIPO | ADYACENTE | OBJETOS
+1 | Entrada al Abismo | Una grieta oscura exuda un hedor pútrido y asfixiante. Susurros demoníacos emergen, incitando a los incautos a cruzar hacia la condenación. | Comun | este:2,sur:3 | null
+2 | Corredor de Carne | Las paredes laten como si fueran vivas, cubiertas de una sustancia viscosa y sanguinolenta. Ojos esporádicos se abren y observan en silencio, siguiendo cada movimiento. | Comun | oeste:1,este:4,sur:6 | null
+3 | Pozo de las Almas Perdidas | Un foso sin fondo lleno de esqueletos aún retorciéndose. De vez en cuando, uno de ellos trata de escalar mientras un llanto agónico se filtra desde las sombras. | Objeto | norte:1,este:5,sur:7 | 1:1
+4 | Cámara de los Lamentos | Un aire gélido te rodea, robándote el aliento. Desde la profunda oscuridad, gritos de agonía eterna resuenan con eco, como si las paredes mismas estuvieran sufriendo. | Enemigo | oeste:2,este:8,sur:10 | null
+5 | Sala de las Lenguas Cortadas | El suelo está cubierto de lenguas putrefactas, aún moviéndose. Voces roncas piden ayuda entre susurros, mientras un murmullo sin origen se mezcla con la penumbra. | Comun | oeste:3,este:9,sur:11 | null
+6 | Pasillo del Hambre | De las paredes sobresalen manos esqueléticas que intentan aferrarse a ti. Su tacto es frío como la muerte, y algunas parecen moverse con intenciones siniestras. | Enemigo | norte:2,este:12 | null
+7 | Cripta de los Herejes | Cadáveres empalados en cruces de hueso se alinean en fila. Sus bocas abiertas parecen gritar sin emitir sonido, mientras su carne se descompone lentamente. | Objeto | norte:3,este:13,sur:15 | 1:2
+8 | Biblioteca Maldita | Libros cubiertos de piel humana susurran secretos prohibidos. Algunos intentan abrirse solos, mientras las palabras en sus páginas se reescriben solas. | Comun | oeste:4,este:14,sur:16 | null
+9 | Catedral de la Blasfemia | Un altar oscuro de piedra negra se erige en el centro. Un ídolo deforme sonríe con dientes humanos, su risa se escucha dentro de tu cabeza, atormentando tu mente. | Enemigo | oeste:5,este:17 | null
+10 | Foso de los Infieles | Las paredes están grabadas con nombres tachados con garras sangrantes. Un eco lejano repite tu nombre en un tono distorsionado y escalofriante. | Comun | norte:4,este:18,sur:19 | null
+11 | Sala de las Manos | Manos cortadas cuelgan del techo, goteando un líquido negruzco y espeso. Algunas parecen moverse por sí solas, intentando alcanzar tu cuerpo. | Enemigo | norte:5,este:20 | null
+12 | Cámara de la Desesperación | Algo invisible respira en tu oído con un murmullo sibilante. El suelo está cubierto de marcas de uñas, como si muchos intentaron escapar en vano. | Comun | oeste:6,este:21 | null
+13 | Foso del Sacrificio | Un caldero burbujeante de sangre hirviendo emite vapores tóxicos. El olor a carne quemada es nauseabundo, y sombras sin dueño se proyectan en las paredes. | Enemigo | oeste:7,este:22 | null
+14 | Pasadizo de la Angustia | Gritos lejanos resuenan en los muros, llamando tu nombre en un tono lastimero. Algo avanza en la oscuridad, pero nunca logras verlo completamente. | Objeto | oeste:8,este:23 | 1:2
+15 | Pasillo del Pánico | Sientes que algo te sigue muy de cerca. Al girarte, nada está ahí, pero la sensación de terror crece con cada paso. | Comun | norte:7,este:24,sur:26 | null
+16 | Pozo del Olvido | Una grieta infinita devora la luz, emitiendo susurros que te invitan a saltar. En el fondo, ojos rojos se abren lentamente y te observan. | Enemigo | norte:8,este:25 | null
+35 | Trono del Archidemonio | Un ser abismal te observa desde un trono de cráneos, su risa ahoga tu voluntad y su presencia misma retuerce la realidad a su alrededor. | Enemigo | oeste:25 | null

@@ -1,0 +1,21 @@
+ID | NOMBRE | DESCRIPCION | TIPO | ADYACENTE | OBJETOS
+1 | Umbral de los Olvidados | Un portón de hierro oxidado se alza ante ti. Grabados antiguos describen la tragedia de un rey caído. El aire es denso, cargado de un susurro lejano. | Comun | este:2,sur:3 | null
+2 | Pasaje de las Sombras | Columnas derruidas proyectan formas distorsionadas en las paredes. Algo se mueve entre los escombros. | Comun | oeste:1,este:4 | null
+3 | Pozo de los Lamentos | Un hoyo sin fondo rodeado de huesos ennegrecidos. Se escucha un eco, pero no es tu voz. | Objeto | norte:1,este:5 | 1:1
+4 | Sala de los Reflejos Perdidos | Grandes espejos cuarteados muestran figuras borrosas que te imitan con un leve retardo. | Enemigo | oeste:2,este:6 | null
+5 | Cámara del Vigía | Un trono vacío cubierto de polvo. Inscripciones describen a un guardián que nunca descansa. | Enemigo | oeste:3,sur:7 | null
+6 | Archivos Prohibidos | Pergaminos apilados y libros que parecen escritos con sangre. Cada página parece cambiar cuando no miras. | Comun | oeste:4,este:8 | null
+7 | Depósito de los Caídos | Restos de antiguas armaduras cubren el suelo. Hay mochilas llenas de provisiones. | Objeto | norte:5,este:9 | 1:2
+8 | Pasillo del Lamento Eterno | Pasadizos angostos donde voces rezan un mismo canto en un idioma perdido. | Enemigo | oeste:6,este:10 | null
+9 | Altar de la Traición | Un altar ennegrecido con una estatua sin rostro. La sangre fresca en el suelo no es tuya. | Objeto | oeste:7,este:11 | 1:1
+10 | Antecámara del Horror | Las paredes están cubiertas de símbolos que se retuercen si los miras fijamente. | Comun | oeste:8,sur:12 | null
+11 | Cámara del Juicio | Piedras antiguas con inscripciones sobre aquellos que desafiaron al destino. | Enemigo | oeste:9,este:13 | null
+12 | Foso del Tormento | Un charco de agua oscura refleja una figura tras de ti, pero cuando volteas, no hay nada. | Comun | norte:10,este:14 | null
+13 | Mausoleo de los Traidores | Los nombres en las lápidas están tachados con garras. Algo aquí aún respira. | Enemigo | oeste:11,este:15 | null
+14 | Cripta del Último Juramento | Tumbas abiertas con sus ataúdes vacíos. Alguien dejó sus armas aquí. | Objeto | oeste:12,este:16 | 1:3
+15 | Santuario Profanado | Reliquias sagradas quebradas. Murales muestran el descenso de un rey a la locura. | Enemigo | oeste:13,este:17 | null
+16 | Cámara de la Aflicción | Escudos oxidados clavados en la pared con restos de carne adheridos. | Comun | oeste:14,este:18 | null
+17 | Sala de los Susurros Antiguos | Una voz en tu mente te ofrece poder... a un precio. | Enemigo | oeste:15,este:19 | null
+18 | Corredor del Ocaso | Un viento frío recorre el pasillo. Sientes que algo te observa. | Objeto | oeste:16,este:20 | 1:2
+19 | Umbral de la Perdición | Se escuchan risas distorsionadas. Un trono de obsidiana te espera adelante. | Comun | oeste:17 | null
+20 | Trono del Rey Exánime | El antiguo soberano de esta mazmorra, ahora consumido por su ambición, se alza con su espada maldita. | Enemigo | oeste:18 | null

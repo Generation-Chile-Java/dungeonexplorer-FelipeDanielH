@@ -1,0 +1,2 @@
+ID | NOMBRE | VIDA | ATAQUE | UBICACION
+1 | orco | 100 | 16 | 4

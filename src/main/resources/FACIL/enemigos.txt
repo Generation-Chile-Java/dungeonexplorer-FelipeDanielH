@@ -1,0 +1,7 @@
+ID | NOMBRE | VIDA | ATAQUE | UBICACION
+1 | Sombra Espectral | 50 | 15 | 4
+2 | Guardián Roto | 70 | 20 | 5
+3 | Espíritu Torturado | 60 | 18 | 8
+4 | Monje Oscuro | 80 | 22 | 11
+5 | Rey Olvidado | 90 | 25 | 13
+6 | El Tirano Maldito | 150 | 35 | 15

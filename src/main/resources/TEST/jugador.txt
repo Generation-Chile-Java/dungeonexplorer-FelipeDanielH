@@ -1,0 +1,2 @@
+ID | NOMBRE | VIDA | ATAQUE | UBICACION
+1 | Felipe | 100 | 20 | 1

@@ -1,0 +1,9 @@
+ID | NOMBRE | VIDA | ATAQUE | UBICACION
+1 | Devorador de Almas | 100 | 30 | 4
+2 | El Hambriento | 120 | 35 | 6
+3 | Guardián Profanado | 140 | 40 | 9
+4 | Sombra del Hereje | 160 | 45 | 11
+5 | Carcelero del Abismo | 180 | 50 | 13
+6 | El Torturado Eterno | 210 | 55 | 19
+7 | Príncipe del Dolor | 230 | 60 | 25
+8 | Archidemonio | 350 | 80 | 35

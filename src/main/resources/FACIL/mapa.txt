@@ -1,0 +1,16 @@
+ID | NOMBRE | DESCRIPCION | TIPO | ADYACENTE | OBJETOS
+1 | Entrada Sombría | Un antiguo portal de piedra se alza entre las sombras. Inscripciones desgastadas advierten sobre la maldición de los Caídos. | Comun | este:2,sur:3 | null
+2 | Pasillo de los Susurros | Un corredor largo y angosto. Voces lejanas murmuran nombres olvidados. | Comun | oeste:1,este:4 | null
+3 | Pozo de las Almas | Un profundo abismo donde espíritus atormentados susurran historias de traición. | Objeto | norte:1,este:5 | 1:1
+4 | Sala de los Espejos | Grandes espejos polvorientos reflejan sombras que no son tuyas. | Enemigo | oeste:2,este:6 | null
+5 | Cámara del Guardián | Un altar destruido. Grabados en el suelo cuentan de un guardián eterno. | Enemigo | oeste:3,sur:7 | null
+6 | Biblioteca Perdida | Libros esparcidos por el suelo. Algunos aún susurran hechizos en lenguas antiguas. | Comun | oeste:4,este:8 | null
+7 | Almacén de los Condenados | Restos de aventureros con sus mochilas intactas. Algo los detuvo aquí. | Objeto | norte:5,este:9 | 1:2
+8 | Pasaje de los Lamentos | Un aire denso pesa sobre tus hombros. Un eco distante de gritos se escucha. | Enemigo | oeste:6,este:10 | null
+9 | Santuario Profano | Antiguos cálices de oro ennegrecido por la corrupción del tiempo. | Objeto | oeste:7,este:11 | 1:1
+10 | Antesala del Horror | Marcas de garras en las paredes. El aire huele a sangre seca. | Comun | oeste:8,sur:12 | null
+11 | Cámara del Ritual | Un pentagrama desvanecido brilla tenuemente. Se siente una presencia hostil. | Enemigo | oeste:9,este:13 | null
+12 | Foso de la Desesperación | Un charco de agua negra refleja tu rostro con un retardo inquietante. | Comun | norte:10,este:14 | null
+13 | Cripta de los Reyes Malditos | Tumbas profanadas con inscripciones sobre un juramento incumplido. | Enemigo | oeste:11,este:15 | null
+14 | Salón del Último Eco | Estatuas de guerreros caídos parecen mirarte fijamente. | Objeto | oeste:12 | 1:3
+15 | Cámara del Tirano | Un trono de huesos ennegrecidos. El dueño de esta mazmorra te espera con su espada en alto. | Enemigo | oeste:13 | null

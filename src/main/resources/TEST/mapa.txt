@@ -1,0 +1,5 @@
+ID | NOMBRE | DESCRIPCION | TIPO | ADYACENTE | OBJETOS
+1 | Entrada | Una oscura cueva de entrada | Comun | norte:2,este:3 | null
+2 | Pasillo | Un estrecho pasillo con antorchas | Comun | sur:1,norte:4 | null
+3 | Sala del Tesoro | Llena de oro y joyas | Objeto | oeste:1 | 1:1, 1:2
+4 | Habitación del Jefe | Aquí vive un enemigo fuerte | Enemigo | sur:2 | null
