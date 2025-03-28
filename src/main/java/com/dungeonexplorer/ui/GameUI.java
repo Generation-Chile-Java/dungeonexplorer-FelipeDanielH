@@ -30,6 +30,11 @@ public class GameUI {
         return Integer.parseInt(scanner.nextLine());
     }
 
+    public String getUserStringInput(String prompt) {
+        System.out.print(prompt + " ");
+        return scanner.nextLine();
+    }
+
     // Muestra el menú de opciones
     public void showMenu(Habitacion habitacion) {
 
@@ -110,6 +115,20 @@ public class GameUI {
         sb.append("\n0. Salir\n");
 
         System.out.println(sb);
+    }
+
+    public void difficultyMenu(){
+        System.out.println("\n--- Escoge el nivel de desafio (Cada dificultad es un escenario diferente) ---");
+        System.out.println("1. FACIL");
+        System.out.println("2. MEDIO");
+        System.out.println("3. DIFICIL");
+        System.out.println("0. Prefiero no Intentarlo \n");
+    }
+
+    public void showMessageContinuar(){
+        System.out.println("¿Empezar denuevo?");
+        System.out.println("\n1. Si");
+        System.out.println("2. No");
     }
 
     public void showMessageTerminarJuego(){

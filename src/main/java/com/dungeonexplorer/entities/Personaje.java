@@ -17,6 +17,10 @@ public class Personaje extends Entidad {
         this.inventario = new ArrayList<>();
     }
 
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
     public int getUbicacion() {
         return ubicacion;
     }

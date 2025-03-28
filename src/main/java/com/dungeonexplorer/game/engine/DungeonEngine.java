@@ -19,12 +19,13 @@ import java.util.Set;
 public class DungeonEngine {
 
     public static String DIFICULTAD = "TEST";
+    GameUI consola = new GameUI();
 
     // Variables importantes
     Personaje jugador = new PlayerLoader().load();
     Map<Integer, Habitacion> dungeon = new DungeonLoader().load();
     Habitacion habitacionAnterior;
-    GameUI consola = new GameUI();
+
     int contadorHabitacion;
 
     public DungeonEngine() throws FileNotFoundException {
@@ -110,10 +111,18 @@ public class DungeonEngine {
         do {
             consola.showMessage("Enemigo: " + enemigo.getNombre() + " " + enemigo.getVidaActual() + "/" + enemigo.getVidaMax());
             consola.showMessage(personaje.getNombre() + " " + personaje.getVidaActual() + "/" + personaje.getVidaMax());
+
+            //PRIMERO NOS ASEGURAMOS DE QUE EL PERSONAJE ESTE VIVO
+            if (jugador.getVidaActual() <= 0) {
+                consola.showMessage("Has sido derrotado");
+                return false;
+            }
+
             consola.menuPelea();
 //            REPITE LAS OPCIONES HASTA QUE DE CON UNA OPCION VALIDA
             do {
                 try {
+
                     opcion = consola.getUserInput("que haras?");
                     switch (opcion) {
                         case 1:
@@ -147,12 +156,9 @@ public class DungeonEngine {
 
                 }
 
+
+
             } while (!opcionesBatallaValidas.contains(opcion));
-
-            if (jugador.getVidaActual() <= 0) {
-                this.terminarJuego("Has sido derrotado. Vuelve a intentarlo");
-            }
-
         } while (enemigo.getVidaActual() > 0 && jugador.getUbicacion() != habitacionAnterior.getId());
 
         return true;
