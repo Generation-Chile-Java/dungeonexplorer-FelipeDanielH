@@ -1,5 +1,18 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/fZvJ74jt)
 
+## Instrucciones de uso
+
+Ejecutar en intelliiJ Idea y jugar
+
+### Principales Features:
+
+- Irrompible
+- Rejugable
+- Entretenido
+
+
+# Instrucciones de la tarea:
+
 **Objetivo del Ejercicio**
 
 Desarrollar un juego de exploración de mazmorras en Java que utilice los cuatro pilares de la programación orientada a objetos: encapsulación, herencia, polimorfismo y abstracción. El juego debe incluir clases, interfaces y la interacción entre diferentes tipos de objetos en la mazmorra.
